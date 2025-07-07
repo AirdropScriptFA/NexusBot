@@ -693,7 +693,7 @@ async function main() {
     let art = '';
     
     if (screen.width >= threshold) {
-      art = cfonts.render('NEXUS', {
+      art = cfonts.render(' ', {
         font: 'block',
         align: 'center',
         colors: ['cyan', 'magenta'],
@@ -704,7 +704,7 @@ async function main() {
         maxLength: screen.width - margin,
       }).string;
     } else {
-      art = cfonts.render('NEXUS', {
+      art = cfonts.render(' ', {
         font: 'tiny',
         align: 'center',
         colors: ['cyan', 'magenta'],
@@ -730,7 +730,7 @@ async function main() {
     tags: false,
     align: 'center',
   });
-  channelPane2.setContent('BOT NEXUS AUTO MINING [BETA v1.0]');
+  channelPane2.setContent('NEXUS AUTO MINING');
   screen.append(channelPane2);
 
   const infoPane = blessed.box({
