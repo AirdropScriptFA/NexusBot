@@ -1,0 +1,12 @@
+[
+  {
+    "address": "0xYourWalletAddress1",
+    "auth_token": "your_auth_token_1",
+    "min_auth_token": "your_min_auth_token_1"
+  },
+  {
+    "address": "0xYourWalletAddress2",
+    "auth_token": "your_auth_token_2",
+    "min_auth_token": "your_min_auth_token_2"
+  }
+]
